@@ -1,4 +1,4 @@
-const API_URL = "https://version-control-web-production-8b88.up.railway.app";
+const API_URL = "https://web-production-7454b.up.railway.app";
 
 fetch(`${API_URL}/api/topics`)
     .then(res => res.json())
