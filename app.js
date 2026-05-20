@@ -1,4 +1,4 @@
-const API_URL = "https://version-control-backend-qa.vercel.app/";
+const API_URL = "https://version-control-backend-qa.vercel.app";
 
 fetch(`${API_URL}/api/topics`)
     .then(res => res.json())
